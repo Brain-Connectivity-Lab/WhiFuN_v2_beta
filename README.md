@@ -59,6 +59,8 @@ These toolboxes can be downloaded by using the Add ons feature in Matlab. More d
     
 ![Screenshot 2025-03-13 165540](https://github.com/user-attachments/assets/ea662e73-07e9-42da-9455-8f98b97f466d)
 
+
+
    iii) Now, this dataset is not in Brain Imaging Data Structure (BIDS) format (more information on BIDS here : https://bids.neuroimaging.io/ ); hence, uncheck the _BIDS_ check box on the right of the.
  'participant Data Folder' text field. That will open a new window where the folder names can be entered. Type the following in the fields  (as shown in the screenshot)
 
