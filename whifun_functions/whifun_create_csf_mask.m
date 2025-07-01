@@ -4,9 +4,9 @@ matlabbatch{1}.spm.util.imcalc.input = {
     [fullfile(now_func_path.folder,now_func_path.name),',1']
     fullfile(c3.folder,c3.name)
     };
-matlabbatch{1}.spm.util.imcalc.output = ['CSF_MASK' CSF_thres '.nii'];
+matlabbatch{1}.spm.util.imcalc.output = ['CSF_MASK' char(CSF_thres) '.nii'];
 matlabbatch{1}.spm.util.imcalc.outdir = {now_anat_path(1).folder};
-matlabbatch{1}.spm.util.imcalc.expression = ['i2>' CSF_thres];
+matlabbatch{1}.spm.util.imcalc.expression = ['i2>' char(CSF_thres)];
 matlabbatch{1}.spm.util.imcalc.var = struct('name', {}, 'value', {});
 matlabbatch{1}.spm.util.imcalc.options.dmtx = 0;
 matlabbatch{1}.spm.util.imcalc.options.mask = 0;
