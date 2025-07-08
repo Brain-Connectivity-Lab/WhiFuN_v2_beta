@@ -1,4 +1,4 @@
-function write_error_preproc(exception,quality_control_path,Subj_list_subji,Subj_list_all,output_folder)
+function Subj_list_all = write_error_preproc(exception,quality_control_path,Subj_list_subji,Subj_list_all,output_folder)
 
 % Display in command 
         fprintf([ '<strong>' exception.identifier '</strong> \n'])
